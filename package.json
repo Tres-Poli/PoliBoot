@@ -1,0 +1,17 @@
+{
+	"name": "com.poli.boot",
+	"version": "0.0.1",
+	"displayName": "PoliBoot",
+	"description": "A collection of scripts for project bootstrap",
+	"unity": "2019.4",
+	"dependencies": 
+	{
+    	"jp.hadashikick.vcontainer": "1.17.0"
+ 	},
+	"author": 
+	{
+		"name": "Tres Poli",
+		"email": "",
+		"url": "https://github.com/Tres-Poli/PoliBoot"
+	}
+}
