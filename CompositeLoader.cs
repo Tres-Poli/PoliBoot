@@ -6,7 +6,7 @@
     using VContainer.Unity;
 
     [Serializable]
-    public class CompositeLoader
+    public class CompositeLoader : ILoader
     {
         public List<ScriptableLoader> loaders = new();
 
