@@ -6,6 +6,7 @@
 
     public abstract class ScriptableLoader : ScriptableObject, ILoader
     {
+        public string Name => name;
         public abstract void Load(IContainerBuilder builder, LifetimeScope scope);
     }
 }

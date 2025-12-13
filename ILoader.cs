@@ -5,6 +5,7 @@
 
     public interface ILoader
     {
+        public string Name { get; }
         public void Load(IContainerBuilder builder, LifetimeScope scope);
     }
 }

@@ -13,7 +13,9 @@
         {   
             foreach (var loader in bootConfig.GetLoaders())
             {
+                Debug.Log($"Loading: {loader.Name}");
                 loader.Load(builder, this);
+                Debug.Log($"Loaded: {loader.Name}");
             }
         }
     }
